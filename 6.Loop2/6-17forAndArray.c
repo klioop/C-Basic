@@ -20,6 +20,7 @@ int main() {
 
     printf("Sum = %d\n", sum);
     printf("AVERAGE = %d\n", average);
+    printf("The size of arr is %zd\n", sizeof(arr));
 
     return 0;
 }
