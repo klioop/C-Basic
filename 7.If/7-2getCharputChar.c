@@ -2,7 +2,7 @@
 
 int main() {
 
-    char ch; // int keyword 적어도 putchar 는 character 를 출력
+    char ch; // int keyword 를 붙여도 putchar 함수는 character 를 출력
 
     while ((ch = getchar()) != '\n') {
 
