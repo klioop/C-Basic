@@ -19,7 +19,7 @@ int main() {
 }
 
 int isPrimeNumber(unsigned num) {
-    for (int i = 2; i < num - 1; i ++) {
+    for (int i = 2; i < num; i ++) {
         if (num % i == 0)
             return 0;
     }
